@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>rock paper scissors</title>
+    </head>
+    <h1>Rock paper scissors</h1>
+    <body>
+        <script src="javascript.js">
+
+        </script>
+        <button id = "rockButton" onclick = "playRound(playerselection = 'rock', computerSelection = getComputerChoice())">Rock</button>
+        <button id = "paperButton" onclick = "playRound(playerselection = 'paper', computerSelection = getComputerChoice())">Paper</button>
+        <button id = "scissorsButton" onclick = "playRound(playerselection = 'scissors', computerSelection = getComputerChoice())">Scissors</button>
+        <label id = "playerScoreHTML"></label>
+        <label id = "computerScoreHTML"></label>
+        <label id = "endMessage"></label>
+        <button id = "restartButton" onclick = "restartGame()" style="display: none;">Restart the game </button>
+    </body>
+</html>
