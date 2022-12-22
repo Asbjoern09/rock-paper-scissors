@@ -1,0 +1,72 @@
+.buttonDiv{
+    text-align: center;
+    font-family:Verdana;
+}
+#rockButton{
+    background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 45px;
+}
+#paperButton{
+    background-color: #af4c4c; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 45px;
+}#scissorsButton{
+    background-color: #4c66af; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 45px;
+  
+}
+.labelDiv{
+    font-family:Verdana;
+    font-size: 40px;
+    text-align: center;
+
+}
+#restartButton{
+    position: fixed;
+    left: 50%;
+    top: 120%;
+    transform: translate(-50%, -50%);
+    width: 40vw;
+    font-size: 36px;
+    background-color: #af4ca7; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 45px;
+}
+#sitePositionDiv{
+    position: fixed;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    width: 50vw;
+    font-size: 36px;
+}
+#HTML{
+    background-color:bisque
+}
+h1{
+    text-align: center;
+    font-family:Verdana;
+    font-size: 60px;
+}

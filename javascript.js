@@ -33,6 +33,7 @@ function playRound(playerSelection, computerSelection){
         console.log("Input did not match any expected input")
 
     }
+    document.getElementById('computerAndPlayerPicks').innerHTML = 'Player picked ' + playerSelection + " | Computer picked " + computerSelection
     document.getElementById('playerScoreHTML').innerHTML = 'Player score = ' + playerScore;
     document.getElementById('computerScoreHTML').innerHTML = 'Computer score = ' + computerScore;
 

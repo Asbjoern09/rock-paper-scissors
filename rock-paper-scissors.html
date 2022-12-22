@@ -1,18 +1,30 @@
-<html>
+<div id="sitePositionDiv">
+<html id="HTML">
     <head>
         <title>rock paper scissors</title>
+        <link rel="stylesheet" href="RPSStylesheet.css">
     </head>
     <h1>Rock paper scissors</h1>
     <body>
-        <script src="javascript.js">
-
-        </script>
+        <script src="javascript.js"></script>
+        <div class ="buttonDiv">
         <button id = "rockButton" onclick = "playRound(playerselection = 'rock', computerSelection = getComputerChoice())">Rock</button>
         <button id = "paperButton" onclick = "playRound(playerselection = 'paper', computerSelection = getComputerChoice())">Paper</button>
         <button id = "scissorsButton" onclick = "playRound(playerselection = 'scissors', computerSelection = getComputerChoice())">Scissors</button>
+        <button id = "restartButton" onclick = "restartGame()" style="display: none;">Restart the game </button>
+        <br>
+        <br>
+    </div>
+    <div class = labelDiv>
+        <label id = "computerAndPlayerPicks"></label>
+        <br>
+        <br>
         <label id = "playerScoreHTML"></label>
         <label id = "computerScoreHTML"></label>
+        <br>
+        <br>
         <label id = "endMessage"></label>
-        <button id = "restartButton" onclick = "restartGame()" style="display: none;">Restart the game </button>
+    </div>
     </body>
 </html>
+</div>
