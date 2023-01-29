@@ -58,7 +58,7 @@ function playRound(playerSelection, computerSelection){
 function getPlayerSelections(playerSelection){
     if(currentPlayer == 1){
     player1Selection = playerSelection;
-    console.log("player1 picked " + player1Selection)
+    document.getElementById('computerAndPlayerPicks').innerHTML = 'Player1 picked ' + player1Selection + " | Player2's turn"
     currentPlayer +=1;
     }else if(currentPlayer == 2){
         player2Selection = playerSelection;
