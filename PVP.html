@@ -7,11 +7,11 @@
     <h1>Rock paper scissors</h1>
     <body>
         <script src="javascript.js"></script>
-        <a href="PVP.html"><button id="pvpButton">Player vs player</button></a>
+        <a href="index.html"><button id="pvpButton">Player vs computer</button></a>
         <div class ="buttonDiv"> 
-        <button id = "rockButton" onclick = "playRound(playerselection = 'rock', computerSelection = getComputerChoice())">Rock</button>
-        <button id = "paperButton" onclick = "playRound(playerselection = 'paper', computerSelection = getComputerChoice())">Paper</button>
-        <button id = "scissorsButton" onclick = "playRound(playerselection = 'scissors', computerSelection = getComputerChoice())">Scissors</button>
+        <button id = "rockButton" onclick = "getPlayerSelections(playerselection = 'rock')">Rock</button>
+        <button id = "paperButton" onclick = "getPlayerSelections(playerselection = 'paper')">Paper</button>
+        <button id = "scissorsButton" onclick = "getPlayerSelections(playerselection = 'scissors')">Scissors</button>
         <button id = "restartButton" onclick = "restartGame()" style="display: none;">Restart the game </button>
         <br>
         <br>
