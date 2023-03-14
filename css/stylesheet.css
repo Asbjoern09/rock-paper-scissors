@@ -57,7 +57,7 @@ background-color: #394c81; /* Green */
   color: white;
   padding: 15px 32px;
   position: fixed;
-  left: 95%;
+  left: 100%;
   top: 5%;
   display:grid;
   font-size: 25px;
